@@ -72,7 +72,7 @@ With the dependencies installed and your data in place, you can now launch the C
 ```bash
 streamlit run app.py
 ```
-This command starts the Streamlit server, and you should see output indicating that the application is running. By default, it opens in your web browser at http://localhost:8501.
+This command starts the Streamlit server, and you should see output indicating that the application is running. By default, it opens in your web browser at `http://localhost:8501`.
 
 ## 6. Interacting with the Application
 Once the application is running, you can interact with it through the web interface:
@@ -81,4 +81,4 @@ Once the application is running, you can interact with it through the web interf
 **View Insights**: Explore sentiment analysis results and visualizations based on your chats.
 **Download Results**: Export charts and insights for further analysis or sharing.
 ## 7. Stopping the Application
-To stop the Streamlit application, return to the terminal where it’s running and press Ctrl + C. This will terminate the server.
+To stop the Streamlit application, return to the terminal where it’s running and press `Ctrl + C`. This will terminate the server.
