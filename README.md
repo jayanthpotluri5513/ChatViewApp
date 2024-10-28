@@ -6,6 +6,9 @@ ChatView is a chat analysis application that leverages advanced natural language
 ## 📁 Dataset
 The dataset consists of user-provided WhatsApp chat logs exported in .txt format. Each file contains message exchanges with timestamps, participants, and message content, enabling comprehensive sentiment analysis and keyword extraction.
 
+## View the application here
+https://chatviewapp.streamlit.app/
+
 ## 🔧 Dependencies
 Ensure the following dependencies are installed:
 
@@ -93,25 +96,37 @@ streamlit run app.py
 ```
 
 ## 🖥️ Tech Stack
+## 🖥 Tech Stack
 
-- **Frameworks**: 
-  - TensorFlow
-  - Keras
-  - Streamlit
+### **Frameworks**
+- **TensorFlow**: An open-source framework for building and training machine learning models.
+- **Keras**: A high-level API for neural networks, simplifying model creation on top of TensorFlow.
+- **Streamlit**: A framework for creating interactive web applications for data science projects.
 
-- **Model Architecture**: 
-  - Natural Language Processing (NLP) Techniques
+### **Model Architecture**
+- **Natural Language Processing (NLP)**: Techniques used for text analysis, including sentiment analysis and keyword extraction.
 
-- **Text Preprocessing**: 
-  - NLTK
+### **Text Preprocessing**
+- **NLTK**: A library for natural language processing, offering tools for text processing tasks.
 
-- **Python Libraries**: 
-  - NumPy
-  - Pandas
+### **Python Libraries**
+- **NumPy**: For numerical operations and handling arrays.
+- **Pandas**: For data manipulation and analysis using DataFrames.
 
-- **Visualization**: 
-  - Matplotlib
-  - Seaborn
+### **Data Visualization**
+- **Matplotlib**: A library for creating static, animated, and interactive visualizations.
+- **Seaborn**: A statistical data visualization library built on Matplotlib, enhancing plot aesthetics.
+
+### **Additional Libraries**
+- **TextBlob**: For simple NLP tasks, including sentiment analysis.
+- **VADER**: Specialized for sentiment analysis, effective on social media texts.
+
+### **Development Tools**
+- **Jupyter Notebook**: For interactive code execution and data visualization.
+- **Google Colab**: A cloud-based platform for running Python code and machine learning experiments.
+
+### **Deployment**
+- **Heroku/Streamlit Sharing**: Platforms for deploying Streamlit applications to a live environment.
 
 ## 🔍 Step-by-Step Process
 
@@ -178,3 +193,19 @@ The application provides real-time insights into WhatsApp chats, showcasing:
 - **Sentiment Analysis Results**: Overall sentiment distribution visualized through pie charts or bar graphs.
 - **Keyword Frequency Charts**: Visual representation of frequently used terms, highlighting trends in conversation topics.
 - **User Interaction Metrics**: Statistics on messaging activity, such as the number of messages per user and the most active participants.
+
+## Live deployed link
+https://chatviewapp.streamlit.app/
+
+## 📜 License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## 🤖 About Me:
+I'm Srijayanth Potluri, an aspiring data analyst with a strong interest in machine learning, deep learning, and NLP technologies. This project exemplifies my commitment to harnessing advanced algorithms for insightful communication analysis, combating misinformation, and promoting meaningful digital interactions.
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srijayanth-potluri-437519259/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SrijayanthP)
+
+
