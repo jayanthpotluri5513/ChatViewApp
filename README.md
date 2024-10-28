@@ -76,9 +76,105 @@ This command starts the Streamlit server, and you should see output indicating t
 
 ## 6. Interacting with the Application
 Once the application is running, you can interact with it through the web interface:
-
 **Upload Chat Data**: Use the upload feature to load your WhatsApp chat files.
 **View Insights**: Explore sentiment analysis results and visualizations based on your chats.
 **Download Results**: Export charts and insights for further analysis or sharing.
 ## 7. Stopping the Application
 To stop the Streamlit application, return to the terminal where it’s running and press `Ctrl + C`. This will terminate the server.
+
+## 🏗️ Instructions to Run
+
+Streamlit
+Open your terminal and execute the following commands:
+
+```bash
+cd ~/Desktop/"Your Project Directory"
+streamlit run app.py
+```
+
+## 🖥️ Tech Stack
+
+- **Frameworks**: 
+  - TensorFlow
+  - Keras
+  - Streamlit
+
+- **Model Architecture**: 
+  - Natural Language Processing (NLP) Techniques
+
+- **Text Preprocessing**: 
+  - NLTK
+
+- **Python Libraries**: 
+  - NumPy
+  - Pandas
+
+- **Visualization**: 
+  - Matplotlib
+  - Seaborn
+
+## 🔍 Step-by-Step Process
+
+Here’s a complete breakdown of the project flow:
+
+### 1. Data Collection and Loading
+
+- **Data Import**: Users upload WhatsApp chat data in .txt format through the app interface.
+- **Loading**: The application reads and structures the data for analysis, converting it into a suitable format for processing.
+
+### 2. Data Preprocessing
+
+- **Cleaning**: 
+  - Remove unwanted characters, punctuation, and stop words using NLTK’s stopwords list.
+  - Normalize text by converting it to lowercase to ensure consistency.
+
+- **Tokenization**: 
+  - Split the text into individual tokens (words) to prepare for analysis.
+  - Utilize NLTK’s `word_tokenize` function for efficient tokenization.
+
+- **Vectorization**: 
+  - Transform the cleaned text into numerical vectors, using word embeddings (such as Word2Vec or GloVe) for contextual representation.
+  - Create a matrix representation of the tokens to facilitate further analysis.
+
+### 3. Sentiment Analysis
+
+- **Sentiment Extraction**: 
+  - Apply NLP algorithms to determine the emotional tone of conversations (positive, negative, neutral).
+  - Utilize sentiment analysis libraries like VADER or TextBlob to classify sentiments accurately.
+
+- **Keyword Extraction**: 
+  - Identify key terms and phrases within the chat data, highlighting important discussion points.
+  - Implement techniques such as TF-IDF or RAKE for effective keyword extraction.
+
+### 4. Data Visualization
+
+- **Summary Statistics**: 
+  - Display total messages, unique users, and interaction trends in an easy-to-understand format.
+  - Provide insights on user engagement over time.
+
+- **Charts and Graphs**: 
+  - Visualize sentiment trends and keyword frequencies over time using libraries like Matplotlib and Seaborn.
+  - Create interactive plots that allow users to explore data dynamically.
+
+### 5. User Interaction
+
+- **Filtering and Searching**: 
+  - Users can filter chats by date, participant, or sentiment for focused analysis.
+  - Implement search functionalities to help users find specific discussions or keywords easily.
+
+- **Exporting Results**: 
+  - Provide the ability to download visualizations and insights for further review in various formats (e.g., PNG, PDF).
+  - Enable users to save their analysis for offline access.
+
+### 6. Model Evaluation (Optional)
+
+- While the main focus is on interactive analysis, implement techniques to validate sentiment accuracy and extraction quality.
+- Use cross-validation or hold-out testing to evaluate the performance of sentiment classification models.
+
+## 📊 Results and Visualization
+
+The application provides real-time insights into WhatsApp chats, showcasing:
+
+- **Sentiment Analysis Results**: Overall sentiment distribution visualized through pie charts or bar graphs.
+- **Keyword Frequency Charts**: Visual representation of frequently used terms, highlighting trends in conversation topics.
+- **User Interaction Metrics**: Statistics on messaging activity, such as the number of messages per user and the most active participants.
