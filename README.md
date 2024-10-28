@@ -9,6 +9,7 @@ The dataset consists of user-provided WhatsApp chat logs exported in .txt format
 ## View the application here
 https://chatviewapp.streamlit.app/
 
+
 ## 🔧 Dependencies
 Ensure the following dependencies are installed:
 
@@ -96,7 +97,6 @@ streamlit run app.py
 ```
 
 ## 🖥️ Tech Stack
-## 🖥 Tech Stack
 
 ### **Frameworks**
 - **TensorFlow**: An open-source framework for building and training machine learning models.
@@ -196,6 +196,7 @@ The application provides real-time insights into WhatsApp chats, showcasing:
 
 ## Live deployed link
 https://chatviewapp.streamlit.app/
+
 
 ## 📜 License
 [MIT](https://choosealicense.com/licenses/mit/)
